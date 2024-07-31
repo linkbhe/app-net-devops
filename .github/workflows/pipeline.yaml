@@ -42,4 +42,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: fernandos/app-fastapi-demo:latest, fernandos/app-fastapi-demo:${{ github.run_number }}
+          tags: linkbhe/app-fastapi-demo:latest, linkbhe/app-fastapi-demo:${{ github.run_number }}
